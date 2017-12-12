@@ -2,4 +2,4 @@
 Deep Reinforcement Learning
 
 
-<video src="openaigym.video.0.11039.video000027.mp4" width="320" height="200" controls preload></video>
+![alt text](https://raw.githubusercontent.com/JoeZhao84/drl/breakout.gif)
