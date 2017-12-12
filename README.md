@@ -2,9 +2,9 @@
 Deep Reinforcement Learning
 
 
-# Training async-Q after 1000800 seconds
+### Training async-Q after 1000800 seconds
 
 ![alt text](https://raw.githubusercontent.com/JoeZhao84/drl/master/breakout.gif)
 
-# Training Pacman (WIP)
-![alt text](https://raw.githubusercontent.com/JoeZhao84/drl/master/Pacman(1).gif)
+### Training Pacman (WIP)
+![alt text](https://raw.githubusercontent.com/JoeZhao84/drl/master/Pacman.gif)
