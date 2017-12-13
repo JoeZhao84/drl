@@ -2,7 +2,7 @@
 Deep Reinforcement Learning
 
 
-### Training async-Q on CPU and a laptop with 32GB RAM after 1000800 seconds
+### Training async-Q on CPU and a laptop with 32GB RAM after 100 hours
 
 ![alt text](https://raw.githubusercontent.com/JoeZhao84/drl/master/breakout.gif)
 
