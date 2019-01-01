@@ -1,7 +1,21 @@
 
 The project continuous control is solved using DDPG algorithm
 
-
+### The Solution provided here was done in the Udacity workspace, with the following dependencies 
+tensorflow==1.7.1
+Pillow>=4.2.1
+matplotlib
+numpy>=1.11.0
+jupyter
+pytest>=3.2.2
+docopt
+pyyaml
+protobuf==3.5.2
+grpcio==1.11.0
+torch==0.4.0
+pandas
+scipy
+ipykernel
 
 
 ### The Unity ML-Agents Reacher Environment
@@ -18,7 +32,7 @@ The second version contains 20 identical agents, each with its own copy of the e
 The second version is useful for algorithms like PPO, A3C, and D4PG that use multiple (non-interacting, parallel) copies of the same agent to distribute the task of gathering experience.
 
 
-Solving the Environment
+### Solving the Environment
 Note that your project submission need only solve one of the two versions of the environment.
 
 Option 1: Solve the First Version
@@ -31,7 +45,7 @@ After each episode, we add up the rewards that each agent received (without disc
 This yields an average score for each episode (where the average is over all 20 agents).
 The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30.
 
-Getting Started
+### Getting Started
 Download the environment from one of the links below. You need only select the environment that matches your operating system:
 
 Version 1: One (1) Agent
@@ -53,18 +67,4 @@ Windows (64-bit): click here
 Place the file in the DRLND GitHub repository, in the p2_continuous-control/ folder, and unzip (or decompress) the file.
 
 
-### The Solution provided here was done in the Udacity workspace, with the following dependencies 
-tensorflow==1.7.1
-Pillow>=4.2.1
-matplotlib
-numpy>=1.11.0
-jupyter
-pytest>=3.2.2
-docopt
-pyyaml
-protobuf==3.5.2
-grpcio==1.11.0
-torch==0.4.0
-pandas
-scipy
-ipykernel
+
