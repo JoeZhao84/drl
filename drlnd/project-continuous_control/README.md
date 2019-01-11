@@ -1,5 +1,8 @@
 
 The project continuous control is solved using DDPG algorithm
+ddpg_agent.py is for training single agent environment.
+ddpg_agent1.py is for training multi-agent environment.
+The solution reached ContinuousControl.ipynb is based on ddpg_agent1.py
 
 ### The Solution provided here was done in the Udacity workspace, with the following dependencies 
     tensorflow==1.7.1
