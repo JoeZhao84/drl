@@ -1,0 +1,67 @@
+Meets Specifications
+Dear Student,
+
+Going through your code was a pleasure as it is really well written in a good and modular style.
+You also seem to have a good hold on python and Deep Reinforcement learning.
+
+You have handled all the edge cases elegantly, I am quite impressed!
+
+Also, for further learning you might be interested in this.
+
+Congratulations on successfully completing the project.
+Cheers!
+
+Training Code
+The repository includes functional, well-documented, and organized code for training the agent.
+
+The code is written in PyTorch and Python 3.
+
+The code is written in pyTorch and Python 3. Well Done.
+You might be interested in this and this to understand differences between pytorch and tensorflow.
+
+The submission includes the saved model weights of the successful agent.
+
+README
+The GitHub submission includes a README.md file in the root of the repository.
+
+The README describes the the project environment details (i.e., the state and action spaces, and when the environment is considered solved).
+
+Good Job! The state and action spaces has been described well in the Readme file.
+
+The README has instructions for installing dependencies or downloading needed files.
+
+The README describes how to run the code in the repository, to train the agent. For additional resources on creating READMEs or using Markdown, see here and here.
+
+Report
+The submission includes a file in the root of the GitHub repository (one of Report.md, Report.ipynb, or Report.pdf) that provides a description of the implementation.
+
+The report clearly describes the learning algorithm, along with the chosen hyperparameters. It also describes the model architectures for any neural networks.
+
+Well Done! The learning algorithm, the hyper-parameters and the model architecture are clearly explained in the report.
+
+A plot of rewards per episode is included to illustrate that either:
+
+[version 1] the agent receives an average reward (over 100 episodes) of at least +30, or
+[version 2] the agent is able to receive an average reward (over 100 episodes, and over all 20 agents) of at least +30.
+The submission reports the number of episodes needed to solve the environment.
+
+Good Job here, the agent was able to solve the environment in a decent number of episodes!
+
+For the single agent version, try decreasing the learning rate of actor and critic (say e-4) and you might see a performance boost. Also, you might try updating the network more frequently (say 5 times every three time steps)
+
+For the multi agent:
+
+You can further boost your performance by allowing the agents to explore more aggressively.
+
+What happens when some/few of the agents reach a common state?
+
+They will start behaving exactly the same for the rest of the episode. To overcome this, you can have different networks for each of the agent.
+But, it doesn't makes sense to create different networks for our agents when they are exactly the same.
+
+So, what I would recommend here is that you keep one Network (same as in current scenario) but create different noise processes for each of the agent. This will ensure that each of the agents explore differently (in case they reach the same state) even though they share the same network; resulting in a boost of the training time.
+
+So, in the modified scenario, even though agents might be in similar state, they will explore different areas; while in the current scenario, if the agents are in similar state, they all will explore the same areas and your training will be much more slower.
+
+The submission has concrete future ideas for improving the agent's performance.
+
+Good Job here! You have provided very good future ideas on how to improve the agent's performance. It would be really interesting to see how the agent performs on the suggested implementations. As a additional challenge, you should try them out and see which one performs better and maybe report them in your repo!
