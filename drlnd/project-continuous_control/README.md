@@ -26,6 +26,8 @@ Reference Paper: https://arxiv.org/pdf/1509.02971.pdf
     ipykernel
 and the Unity environment, see below
 
+Some other environment dependencies can be found here: https://github.com/JoeZhao84/drl/tree/master/drlnd/Project-Navigation/python
+
 ### The Unity ML-Agents Reacher Environment
 ![alt text](https://github.com/JoeZhao84/drl/blob/master/drlnd/project-continuous_control/reacher.gif)
 
