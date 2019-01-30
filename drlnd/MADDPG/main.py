@@ -111,7 +111,8 @@ def main():
             actions = maddpg.act(transpose_to_tensor(obs), noise=noise)
             noise *= noise_reduction
             
-            actions_array = torch.stack(actions).detach().numpy()
+            actions_array = torch.stack(actions).detach().numpy() #more reading about detach() method: http://www.bnikolic.co.uk/blog/pytorch-detach.html 
+            #here the numpy() method transfer the tensor to numpy array
 
             # transpose the list of list
             # flip the first two indices
