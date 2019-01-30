@@ -62,8 +62,10 @@ class MADDPG:
         target_actions = self.target_act(next_obs)
         target_actions = torch.cat(target_actions, dim=1)
         
+        #t() is to transpose tensor
         target_critic_input = torch.cat((next_obs_full.t(),target_actions), dim=1).to(device)
         
+        #-----------------------------update critic -----------------------------#
         with torch.no_grad():
             q_next = agent.target_critic(target_critic_input)
         
@@ -78,7 +80,7 @@ class MADDPG:
         #torch.nn.utils.clip_grad_norm_(agent.critic.parameters(), 0.5)
         agent.critic_optimizer.step()
 
-        #update actor network using policy gradient
+        #---------------------update actor network using policy gradient---------------------#
         agent.actor_optimizer.zero_grad()
         # make input to agent
         # detach the other agents to save computation
