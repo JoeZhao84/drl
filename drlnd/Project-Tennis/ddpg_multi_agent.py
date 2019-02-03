@@ -1,6 +1,5 @@
 import numpy as np
 import random
-from numpy import random as nprandom
 import copy
 from collections import namedtuple, deque
 
@@ -166,7 +165,7 @@ class OUNoise:
         """Update internal state and return it as a noise sample."""
         x = self.state
         #dx = self.theta * (self.mu - x) + self.sigma * np.array([random.random() for i in range(len(x))])
-        dx = self.theta * (self.mu - x) + self.sigma * nprandom.standard_normal(self.size) #adapt to allow for negative values to be returned
+        dx = self.theta * (self.mu - x) + self.sigma * np.random.standard_normal(self.size) #adapt to allow for negative values to be returned
         self.state = x + dx
         return self.state
 
