@@ -38,11 +38,11 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 Follow the instructions in `Tennis.ipynb` to get started with training your own agent!
 
-### (Optional) Challenge: Crawler Environment
+### (Optional) Challenge: Play Soccer
 
 After you have successfully completed the project, you might like to solve the more difficult **Soccer** environment.
 
-![Soccer][image2]
+![alt text](https://github.com/JoeZhao84/drl/blob/master/drlnd/Project-Tennis/soccer.png)
 
 In this environment, the goal is to train a team of agents to play soccer.
 
