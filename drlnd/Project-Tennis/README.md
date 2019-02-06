@@ -1,6 +1,11 @@
 
 The project continuous control is solved using DDPG algorithm
 
+The solution is in Tennis.ipynb and is based on ddpg_multi_agent.py
+
+A brief [Report](./Tennis_Report.pdf) for the implementation.
+
+Reference Paper: https://arxiv.org/pdf/1509.02971.pdf
 
 
 ### Introduction
